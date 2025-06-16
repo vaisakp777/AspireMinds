@@ -38,13 +38,15 @@ function Navbar() {
     
     
   };
-
+  const imageUrl = import.meta.env.VITE_IMAGE_URL ;
+  const logo=imageUrl+"Logo_final.jpg";
+  console.log(logo)
   return (
     <header className="header">
       <div className="nav-container">
         <div className="logo">
           {/* Logo placeholder - replace with your logo */}
-          <img src="../../images/Logo_final.jpg" alt="Logo" className="logo-placeholder"/>
+          <img src={imageUrl+"Logo_final.jpg"} alt="Logo" className="logo-placeholder"/>
         </div>
 
         <button 
