@@ -39,8 +39,7 @@ function Navbar() {
     
   };
   const imageUrl = import.meta.env.VITE_IMAGE_URL ;
-  const logo=imageUrl+"Logo_final.jpg";
-  console.log(logo)
+
   return (
     <header className="header">
       <div className="nav-container">

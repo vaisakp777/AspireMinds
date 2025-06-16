@@ -2,6 +2,7 @@ import React from 'react';
 import './Curriculum.css';
 import { useNavigate } from 'react-router-dom';
 const Curriculum = () => {
+  const imageUrl = import.meta.env.VITE_IMAGE_URL ;
   const navigate = useNavigate();
   return (
     <div className="curriculum-container">
@@ -9,7 +10,7 @@ const Curriculum = () => {
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-image-placeholder">
-            <img src="../../images/meditation.jpg" alt="Meditation placeholder" className='meditationImg' ></img>
+            <img src={imageUrl+"meditation.jpg"} alt="Meditation placeholder" className='meditationImg' ></img>
           </div>
           <h1 className="main-title">Cognitive Hypnotic Coaching Curriculum</h1>
           <p className="hero-description">
@@ -18,7 +19,7 @@ const Curriculum = () => {
             practical coaching techniques to create lasting change.
           </p>
           <div className="decorative-element">
-            <img src="../../images/wave.jpg" alt="Decorative element" className='waveImg'></img>
+            
           </div>
         </div>
       </section>
@@ -32,7 +33,7 @@ const Curriculum = () => {
             <p className="level-subtitle">Foundation Level - Building Your Core Skills</p>
           </div>
           <div className="level-image-placeholder">
-            <img src='../../images/coaching.jpg' alt="coaching image" className='coachingImg'></img>
+            <img src={imageUrl+"coaching.jpg"} alt="coaching image" className='coachingImg'></img>
           </div>
         </div>
 
@@ -40,7 +41,7 @@ const Curriculum = () => {
           {/* Psycho-Education Block 1 */}
           <div className="curriculum-card primary">
             <div className="card-icon-placeholder">
-              <img src='../../images/brain.jpg' alt="Brain icon placeholder" className='card-icon'></img>
+              <img src={imageUrl+"brain.jpg"} alt="Brain icon placeholder" className='card-icon'></img>
             </div>
             <h3>Psycho-Education: Foundations</h3>
             <ul>
@@ -64,7 +65,7 @@ const Curriculum = () => {
           {/* Psycho-Education Block 2 */}
           <div className="curriculum-card secondary">
             <div className="card-icon-placeholder">
-              <img src='../../images/mind.jpg' alt="Mind icon placeholder" className='card-icon'></img>
+              <img src={imageUrl+"mind.jpg"} alt="Mind icon placeholder" className='card-icon'></img>
             </div>
             <h3>Psycho-Education: Mind Dynamics</h3>
             <ul>
@@ -90,7 +91,7 @@ const Curriculum = () => {
           {/* Psycho-Education Block 3 */}
           <div className="curriculum-card primary">
             <div className="card-icon-placeholder">
-              <img src='../../images/transformation.jpg' alt="transoformation icon placeholder" className='card-icon'></img>
+              <img src={imageUrl+"transformation.jpg"} alt="transoformation icon placeholder" className='card-icon'></img>
             </div>
             <h3>Psycho-Education: Advanced Concepts</h3>
             <ul>
@@ -113,7 +114,7 @@ const Curriculum = () => {
 
           {/* Hypnotic Inductions */}
           <div className="curriculum-card accent">
-            <div className="card-icon-placeholder"><img src="../../images/positive.jpg" alt="Hypnosis icon placeholder" className='card-icon'></img></div>
+            <div className="card-icon-placeholder"><img src={imageUrl+"positive.jpg"} alt="Hypnosis icon placeholder" className='card-icon'></img></div>
             <h3>Hypnotic Inductions</h3>
             <ul>
               <li>Balloon Book</li>
@@ -131,7 +132,7 @@ const Curriculum = () => {
 
           {/* Diagnostic Techniques */}
           <div className="curriculum-card secondary">
-            <div className="card-icon-placeholder"><img src="../../images/assess.jpg" alt="Diagnostic icon placeholder" className='card-icon'></img></div>
+            <div className="card-icon-placeholder"><img src={imageUrl+"assess.jpg"} alt="Diagnostic icon placeholder" className='card-icon'></img></div>
             <h3>Diagnostic Techniques</h3>
             <ul>
               <li>Coaching Models
@@ -151,7 +152,7 @@ const Curriculum = () => {
 
           {/* Change Processes */}
           <div className="curriculum-card accent">
-            <div className="card-icon-placeholder"><img src="../../images/change.jpg" alt="Change Processes icon placeholder" className='card-icon'></img></div>
+            <div className="card-icon-placeholder"><img src={imageUrl+"change.jpg"} alt="Change Processes icon placeholder" className='card-icon'></img></div>
             <h3>Change Processes</h3>
             <ul>
               <li>If-Then for thought restructuring</li>
@@ -167,7 +168,7 @@ const Curriculum = () => {
         {/* Level 1 Outcomes */}
         <div className="outcomes-section">
           <div className="outcomes-image-placeholder">
-            <img src='../../images/success.jpg' alt="Success image placeholder" className='outcomes-image-placeholder'></img>
+            <img src={imageUrl+'success.jpg'} alt="Success image placeholder" className='outcomes-image-placeholder'></img>
           </div>
           <div className="outcomes-content">
             <h3>What you can achieve after Level 1</h3>
@@ -203,7 +204,7 @@ const Curriculum = () => {
       <section className="transition-section">
         <div className="transition-content">
           <div>
-            <img src='../../images/path.jpg' alt="path image placeholder" className='transition-image-placeholder'></img>
+            <img src={imageUrl+'path.jpg'} alt="path image placeholder" className='transition-image-placeholder'></img>
           </div>
           <h2>Ready to advance your practice?</h2>
           <p>Take your skills to the next level with our advanced practitioner course</p>
@@ -218,7 +219,7 @@ const Curriculum = () => {
             <h2>Advanced Practitioners Course in Cognitive Hypnotic Coaching</h2>
             <p className="level-subtitle">Advanced Level - Mastering Professional Practice</p>
           </div>
-          <img src='../../images/coaching2.jpg' alt="Advanced coaching image" className='coachingImg'></img>
+          <img src={imageUrl+'coaching2.jpg'} alt="Advanced coaching image" className='coachingImg'></img>
         </div>
 
         <div className="curriculum-grid">
@@ -324,7 +325,7 @@ const Curriculum = () => {
 
         {/* Level 2 Outcomes */}
         <div className="outcomes-section">
-          <img src="../../images/outcome.jpg" alt="Outcomes image" className="outcomes-image-placeholder">
+          <img src={imageUrl + "outcome.jpg"} alt="Outcomes image" className="outcomes-image-placeholder">
             
           </img>
           <div className="outcomes-content">
@@ -361,7 +362,7 @@ const Curriculum = () => {
       {/* Call to Action */}
       <section className="cta-section">
         <div className="cta-content">
-          <img src="../../images/goal.jpg" alt="CTA Image" className="cta-image-placeholder" />
+          <img src={imageUrl + "/goal.jpg"} alt="CTA Image" className="cta-image-placeholder" />
           <h2>Begin Your Transformation Journey</h2>
           <p>Join thousands of successful practitioners who have transformed their lives and the lives of others through cognitive hypnotic coaching.</p>
           <div className="cta-buttons">
