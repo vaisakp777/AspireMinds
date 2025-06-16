@@ -1,7 +1,8 @@
 import React from 'react';
 import './About.css';
-
+import { useNavigate } from "react-router-dom";
 const About = () => {
+  const navigate=useNavigate();
   return (
     <div className="about-container">
       {/* Hero Section */}
@@ -121,7 +122,7 @@ const About = () => {
             <p className="cta-description">
               Take the first step towards transformation with a complimentary discovery call.
             </p>
-            <button className="cta-button-secondary">
+            <button className="cta-button-secondary" onClick={()=> navigate('/contact')}>
               Schedule Your Consultation
             </button>
           </div>
