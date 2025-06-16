@@ -1,9 +1,13 @@
 import React from 'react';
 import './Curriculum.css';
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 const Curriculum = () => {
   const imageUrl = import.meta.env.VITE_IMAGE_URL ;
   const navigate = useNavigate();
+  useEffect(() => {
+    document.documentElement.scrollTop = 0; // instant jump
+  }, []);
   return (
     <div className="curriculum-container">
       {/* Hero Section */}

@@ -1,33 +1,13 @@
 
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, User, Heart, Brain, Zap, Star } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: ''
-  });
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for reaching out! I\'ll get back to you within 24 hours to schedule your free discovery call.');
-    setFormData({ name: '', email: '', subject: '' });
-  };
-
-  const handleBookCall = () => {
-    alert('Redirecting to booking calendar...');
-  };
+  useEffect(() => {
+    document.documentElement.scrollTop = 0; // instant jump
+  }, []);
 
   return (
     <div className="contact-container">  

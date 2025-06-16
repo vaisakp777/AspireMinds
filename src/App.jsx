@@ -15,7 +15,7 @@ function App() {
 
       <Router>
         <Navbar />
-            <Routes>
+            <Routes location={location} key={location.pathname}>
                 <Route path="" element={<Home />} />
                 <Route path='/about' element={<About />}/>
                 <Route path="/services" element={<Curriculum />} />

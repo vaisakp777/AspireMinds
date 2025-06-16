@@ -1,8 +1,12 @@
 import React from 'react';
 import './About.css';
 import { useNavigate } from "react-router-dom";
+import { useEffect } from 'react';
 const About = () => {
   const navigate=useNavigate();
+    useEffect(() => {
+      document.documentElement.scrollTop = 0; // instant jump
+    }, []);
   return (
     <div className="about-container">
       {/* Hero Section */}
