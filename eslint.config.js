@@ -19,6 +19,10 @@ export default [
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+       preview: {
+        allowedHosts: ['aspire-minds.onrender.com'],
+      },
+      
     },
     rules: {
       ...js.configs.recommended.rules,
