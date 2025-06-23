@@ -31,144 +31,100 @@ const Curriculum = () => {
       {/* Level 1 Course */}
       <section className="level-section">
         <div className="level-header">
-          <div className="level-number">01</div>
+        
           <div className="level-info">
             <h2>Practitioners Course in Cognitive Hypnotic Coaching</h2>
-            <p className="level-subtitle">Foundation Level - Building Your Core Skills</p>
+            <p className="level-subtitle">As a Cognitive Hypnotic Coach, I offer personalized coaching and transformation programs designed to empower you to break through limitations, heal emotionally, and create lasting change from within.
+</p>
           </div>
           <div className="level-image-placeholder">
             <img src={imageUrl+"coaching.jpg"} alt="coaching image" className='coachingImg'></img>
           </div>
         </div>
-
         <div className="curriculum-grid">
-          {/* Psycho-Education Block 1 */}
+          <div className="curriculum-card secondary">
+            <div className="card-icon-placeholder"><img src={imageUrl+"peaceful.jpg"} alt="System Access icon placeholder" className='card-icon'></img></div>
+            <h3>
+            Helping teens overcome stress, anxiety, and concentration issues while boosting focus, confidence, and motivation in academics.</h3>
+           
+          </div>
+        
           <div className="curriculum-card primary">
-            <div className="card-icon-placeholder">
-              <img src={imageUrl+"brain.jpg"} alt="Brain icon placeholder" className='card-icon'></img>
-            </div>
-            <h3>Psycho-Education: Foundations</h3>
-            <ul>
-              <li>Introduction to CHC</li>
-              <li>Coaching vs Therapy</li>
-              <li>Coaching Process</li>
-              <li>Pre-Coaching Interviews</li>
-              <li>Hypnosis and NLP
-                <ul>
-                  <li>History</li>
-                  <li>Meaning</li>
-                  <li>Myths / Misconceptions</li>
-                </ul>
-              </li>
-              <li>Hypnosis - State or Process</li>
-              <li>Depth of Hypnosis</li>
-              <li>Deepening techniques</li>
-            </ul>
+            <div className="card-icon-placeholder"><img src={imageUrl+"positive.jpg"} alt="Hypnosis icon placeholder" className='card-icon'></img></div>
+            <h3>
+            Break unwanted habits like procrastination, overeating, nail-biting, etc., and install empowering new patterns of behavior.
+            </h3>
+          
           </div>
 
           {/* Psycho-Education Block 2 */}
-          <div className="curriculum-card secondary">
-            <div className="card-icon-placeholder">
-              <img src={imageUrl+"mind.jpg"} alt="Mind icon placeholder" className='card-icon'></img>
-            </div>
-            <h3>Psycho-Education: Mind Dynamics</h3>
-            <ul>
-              <li>Working of Mind
-                <ul>
-                  <li>Conscious</li>
-                  <li>Unconscious</li>
-                  <li>Critical Filter</li>
-                </ul>
-              </li>
-              <li>NLP Presuppositions</li>
-              <li>Suggestibility
-                <ul>
-                  <li>Meaning</li>
-                  <li>Applications</li>
-                  <li>Laws</li>
-                </ul>
-              </li>
-              <li>Emotional intelligence through FLIP</li>
-            </ul>
-          </div>
-
+          
+        </div>
+        <div className="curriculum-grid">
           {/* Psycho-Education Block 3 */}
           <div className="curriculum-card primary">
             <div className="card-icon-placeholder">
               <img src={imageUrl+"transformation.jpg"} alt="transoformation icon placeholder" className='card-icon'></img>
             </div>
-            <h3>Psycho-Education: Advanced Concepts</h3>
-            <ul>
-              <li>Re-hypnosis</li>
-              <li>Waking up process</li>
-              <li>(Re)Conditioning Mind</li>
-              <li>Suggestions & Imagery</li>
-              <li>Positive thinking</li>
-              <li>Benefits and Fallacies</li>
-              <li>Meditation
-                <ul>
-                  <li>Meaning</li>
-                  <li>Types</li>
-                  <li>When not to use it</li>
-                </ul>
-              </li>
-              <li>How to get new clients</li>
-            </ul>
+            <h3>
+            Overcome self-doubt, fear of judgment, and inner criticism. Step into a confident, authentic version of yourself.
+            </h3>
           </div>
-
-          {/* Hypnotic Inductions */}
-          <div className="curriculum-card accent">
-            <div className="card-icon-placeholder"><img src={imageUrl+"positive.jpg"} alt="Hypnosis icon placeholder" className='card-icon'></img></div>
-            <h3>Hypnotic Inductions</h3>
-            <ul>
-              <li>Balloon Book</li>
-              <li>Hand Movement</li>
-              <li>Hand Magnetism</li>
-              <li>Hand-shake</li>
-              <li>Betty Erickson</li>
-              <li>Reverse Count</li>
-              <li>Arm Raising</li>
-              <li>Auto Dual</li>
-              <li>Dave Elman</li>
-              <li>Past Experience</li>
-            </ul>
-          </div>
-
-          {/* Diagnostic Techniques */}
-          <div className="curriculum-card secondary">
-            <div className="card-icon-placeholder"><img src={imageUrl+"assess.jpg"} alt="Diagnostic icon placeholder" className='card-icon'></img></div>
-            <h3>Diagnostic Techniques</h3>
-            <ul>
-              <li>Coaching Models
-                <ul>
-                  <li>GROW | TGROW</li>
-                  <li>REGROW | SOFT-SEA</li>
-                </ul>
-              </li>
-              <li>ABCDE Model</li>
-              <li>SQR Model</li>
-              <li>FLIP</li>
-              <li>Breakdown Cycle</li>
-              <li>Body Syndrome</li>
-              <li>Questioning Self</li>
-            </ul>
-          </div>
-
-          {/* Change Processes */}
-          <div className="curriculum-card accent">
-            <div className="card-icon-placeholder"><img src={imageUrl+"change.jpg"} alt="Change Processes icon placeholder" className='card-icon'></img></div>
-            <h3>Change Processes</h3>
-            <ul>
-              <li>If-Then for thought restructuring</li>
-              <li>Anchoring for emotional conditioning</li>
-              <li>Hypnotic Suggestions</li>
-              <li>Complete Sequence for holistic change</li>
-              <li>Self-hypnosis</li>
-              <li>Meditation</li>
-            </ul>
+          
+                  <div className="curriculum-card secondary">
+            <div className="card-icon-placeholder">
+              <img src={imageUrl+"mind.jpg"} alt="Mind icon placeholder" className='card-icon'></img>
+            </div>
+            <h3>
+            Heal unresolved emotions, past traumas, and inner conflicts that block your progress and peace of mind.
+            </h3>
+         
           </div>
         </div>
 
+        <div className="curriculum-grid">
+          {/* Diagnostic Techniques */}
+          <div className="curriculum-card secondary">
+            <div className="card-icon-placeholder"><img src={imageUrl+"assess.jpg"} alt="Diagnostic icon placeholder" className='card-icon'></img></div>
+            <h3>Identify and shift limiting thoughts and deep-rooted beliefs that keep you stuck—align your mind with your goals and values.
+            </h3>
+         
+          </div>
+                    {/* Advanced Psycho-Education */}
+          <div className="curriculum-card primary">
+            <div className="card-icon-placeholder"><img src={imageUrl+"path.jpg"} alt="Meditation icon placeholder" className='card-icon'></img></div>
+            <h3>
+            Clarify your life and career goals, remove mental blocks, and stay motivated with a clear subconscious alignment.
+
+            </h3>
+         
+          </div>
+
+        </div>
+        <div className="curriculum-grid">
+                    {/* Change Processes */}
+          <div className="curriculum-card primary">
+            <div className="card-icon-placeholder"><img src={imageUrl+"change.jpg"} alt="Change Processes icon placeholder" className='card-icon'></img></div>
+            <h3>Special support for women dealing with life transitions—career changes, motherhood, empty nest, or midlife re-evaluation—with empathy and empowerment.
+          </h3>
+          
+          </div>
+          {/* System Access */}
+            {/* Psycho-Education Block 1 */}
+      
+          <div className="curriculum-card secondary">
+            <div className="card-icon-placeholder">
+              <img src={imageUrl+"brain.jpg"} alt="Brain icon placeholder" className='card-icon'></img>
+            </div>
+            <h3>
+              Release chronic stress, anxiety, and emotional overload using deep relaxation, anchoring, and subconscious reprogramming techniques
+              
+            </h3>
+
+          </div>
+
+          
+        </div>
         {/* Level 1 Outcomes */}
         <div className="outcomes-section">
           <div className="outcomes-image-placeholder">
@@ -205,127 +161,12 @@ const Curriculum = () => {
       </section>
 
       {/* Transition Section */}
-      <section className="transition-section">
-        <div className="transition-content">
-          <div>
-            <img src={imageUrl+'path.jpg'} alt="path image placeholder" className='transition-image-placeholder'></img>
-          </div>
-          <h2>Ready to advance your practice?</h2>
-          <p>Take your skills to the next level with our advanced practitioner course</p>
-        </div>
-      </section>
+
 
       {/* Level 2 Course */}
       <section className="level-section level-2">
-        <div className="level-header">
-          <div className="level-number">02</div>
-          <div className="level-info">
-            <h2>Advanced Practitioners Course in Cognitive Hypnotic Coaching</h2>
-            <p className="level-subtitle">Advanced Level - Mastering Professional Practice</p>
-          </div>
-          <img src={imageUrl+'coaching2.jpg'} alt="Advanced coaching image" className='coachingImg'></img>
-        </div>
-
-        <div className="curriculum-grid">
-          {/* Advanced Psycho-Education */}
-          <div className="curriculum-card primary">
-            <div className="card-icon-placeholder">[Advanced learning icon placeholder]</div>
-            <h3>Advanced Psycho-Education</h3>
-            <ul>
-              <li>Success Principles</li>
-              <li>Moving beyond scripts with Ericksonian model</li>
-              <li>Specific & Vague language</li>
-              <li>Communication at level of conscious & unconscious</li>
-              <li>Calibration and Utilization</li>
-              <li>Advanced Rapport Building</li>
-              <li>Pacing and leading</li>
-              <li>Mindfulness</li>
-              <li>Sensory Acuity</li>
-              <li>Modelling</li>
-            </ul>
-          </div>
-
-          {/* System Access */}
-          <div className="curriculum-card secondary">
-            <div className="card-icon-placeholder">[System/network icon placeholder]</div>
-            <h3>System Access & Representation</h3>
-            <ul>
-              <li>Lead system & accessing cues</li>
-              <li>Representation system</li>
-              <li>Surface & Deep structure of Language</li>
-              <li>Objectives of Coaching</li>
-              <li>Coaching session flow</li>
-              <li>Coaching Documentation</li>
-              <li>State management of Coach</li>
-              <li>Understanding Behaviours as unconscious strategies</li>
-              <li>Change vs transformations</li>
-              <li>Beliefs, values, identity</li>
-            </ul>
-          </div>
-
-          {/* Internal Resources */}
-          <div className="curriculum-card accent">
-            <div className="card-icon-placeholder">[Inner resources icon placeholder]</div>
-            <h3>Internal Resourcing</h3>
-            <ul>
-              <li>Positive Intentions</li>
-              <li>Relapses</li>
-            </ul>
-          </div>
-
-          {/* Advanced Inductions */}
-          <div className="curriculum-card primary">
-            <div className="card-icon-placeholder">[Advanced technique icon placeholder]</div>
-            <h3>Advanced Hypnotic Inductions</h3>
-            <ul>
-              <li>Conversational Hypnosis</li>
-              <li>Mindfulness</li>
-              <li>Finger Signals</li>
-              <li>Black out</li>
-              <li>Mommy take this away</li>
-            </ul>
-          </div>
-
-          {/* Advanced Diagnostics */}
-          <div className="curriculum-card secondary">
-            <div className="card-icon-placeholder">[Advanced analysis icon placeholder]</div>
-            <h3>Advanced Diagnostic Techniques</h3>
-            <ul>
-              <li>Ecological Goal setting</li>
-              <li>Metaphors
-                <ul>
-                  <li>Abstract Drawing</li>
-                  <li>Revelation</li>
-                  <li>Introspection</li>
-                  <li>Dreams interpretation</li>
-                </ul>
-              </li>
-              <li>Meta Models</li>
-              <li>Perceptual Positions</li>
-            </ul>
-          </div>
-
-          {/* Advanced Change Processes */}
-          <div className="curriculum-card accent">
-            <div className="card-icon-placeholder">[Transformation mastery icon placeholder]</div>
-            <h3>Advanced Change Processes</h3>
-            <ul>
-              <li>Metaphors</li>
-              <li>Conversational Control</li>
-              <li>Transformational Story telling</li>
-              <li>N-Step Reframing</li>
-              <li>Parts Integration</li>
-              <li>Sub-modalities
-                <ul>
-                  <li>Swish</li>
-                  <li>Quick Belief Change Process</li>
-                  <li>White out</li>
-                </ul>
-              </li>
-              <li>6 Levels of Transformation</li>
-            </ul>
-          </div>
-        </div>
+        
+        
 
         {/* Level 2 Outcomes */}
         <div className="outcomes-section">

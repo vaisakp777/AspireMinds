@@ -258,17 +258,12 @@ body {
   transform: translateX(5px);
 }
 
-.contact-icon {
-  background-color: #710014;
-  padding: 0.75rem;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
+
 
 .contact-icon svg {
   width: 20px;
   height: 20px;
-  color: white;
+  color:#710014
 }
 
 .contact-item h4 {
