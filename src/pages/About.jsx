@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react';
 const About = () => {
   const navigate=useNavigate();
+  const imageUrl = import.meta.env.VITE_IMAGE_URL ;
     useEffect(() => {
       document.documentElement.scrollTop = 0; // instant jump
     }, []);
@@ -25,7 +26,7 @@ const About = () => {
             </div>
             <div className="hero-image">
               <div className="image-placeholder">
-                <span> Image Placeholder</span>
+                <img src="../../images/photo2.jpg" alt="image of coach" className='image-placeholder' />
               </div>
             </div>
           </div>
@@ -38,11 +39,11 @@ const About = () => {
           <div className="meet-content">
             <div className="meet-image">
               <div className="image-placeholder profile-image">
-                <span>Image placeholder</span>
+                <img src="../../images/photo1.jpg" alt="image of coach" className='image-placeholder profile-image' />
               </div>
             </div>
             <div className="meet-text">
-              <h2 className="section-title">Meet Smitha</h2>
+              <h2 className="section-title-meet">Meet Smitha</h2>
               <p className="intro-text">
                 Hi, I'm Smitha—a Cognitive Hypnotic Coach passionate about helping people 
                 create inner alignment and lasting change. I specialize in working with women 
