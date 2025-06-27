@@ -66,7 +66,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4>Availability</h4>
-                    <p>Date and Time</p>
+                    <p>Monday to Saturday</p>
+                    <p>10:00 AM to 5:00 PM</p>
                   </div>
                 </div>
               </div>
