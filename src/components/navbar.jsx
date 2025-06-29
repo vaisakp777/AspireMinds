@@ -44,7 +44,7 @@ function Navbar() {
     <header className="header">
       <div className="nav-container">
         <div className="logo">
-        <img src="../../images/Logo_final.jpg" alt="Logo className="logo-placeholder"/>
+        <img src="../../images/Logo_final.jpg" alt="Logo" className="logo-placeholder"/>
         </div>
 
         <button 
