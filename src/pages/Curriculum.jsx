@@ -57,7 +57,7 @@ const Curriculum = () => {
           
                   <div className="curriculum-card secondary">
             <div className="card-icon-placeholder">
-              <img src={imageUrl+"mind.jpg"} alt="Mind icon placeholder" className='card-icon'></img>
+              <img  src="../../images/mind.jpg" alt="Mind icon placeholder" className='card-icon'></img>
             </div>
             <h3>
             Heal unresolved emotions, past traumas, and inner conflicts that block your progress and peace of mind.
